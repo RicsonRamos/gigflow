@@ -1,0 +1,60 @@
+# Virtual environments and dependencies
+.venv/
+.uv/
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Sensitive credentials, API keys, private keys, secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+*.cer
+*.pfx
+*.p12
+*.token
+*.secret
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+ssh-key*
+
+# Local runtime data, state, cookies, sqlite databases
+data/*
+!data/.gitkeep
+!data/sessions/
+data/sessions/*
+!data/sessions/.gitkeep
+data/cookies.txt
+*.db
+*.sqlite
+*.sqlite3
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+logs/
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

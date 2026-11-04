@@ -1,0 +1,7 @@
+# Dependências Essenciais (Custo Zero)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+playwright>=1.40.0
+
+# Opcionais (Descomente se desejar usar a biblioteca oficial do Gemini em vez do fallback nativo)
+# google-generativeai>=0.4.0
